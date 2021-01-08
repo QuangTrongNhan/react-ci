@@ -1,0 +1,6 @@
+.emoji-cont p{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
