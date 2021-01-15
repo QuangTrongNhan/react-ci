@@ -1,10 +1,11 @@
 import './App.css';
-import { MyCard } from './component/cardMemory'
-
+import {HeaderPoke} from '../src/conponent/Header'
+import {BodyPoke} from '../src/conponent/BodyPokemon'
 function App() {
   return (
     <div>
-      <MyCard />
+      <HeaderPoke/>
+      <BodyPoke/>
     </div>
   );
 }

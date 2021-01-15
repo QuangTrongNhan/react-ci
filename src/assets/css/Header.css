@@ -1,0 +1,37 @@
+.header-cont{
+    margin: auto;
+    width: 70vw;
+    border: 3px solid brown;
+    display: flex;  
+    overflow: auto;
+    height: 300px;
+    justify-content: space-around;
+    
+}
+.header-cont .header-col-1 img{
+    margin: auto;
+    width: 50%;
+}
+.header-cont .header-col-2 img{
+    margin: auto;
+    width: 50%;
+}
+.header-cont .header-col-3 img{
+    margin: auto;
+    width: 50%;
+}
+.header-col-1{
+    display: flex;
+    flex-direction: column;
+    width: calc(70vw / 3);
+}
+.header-col-2{
+    display: flex;
+    flex-direction: column;
+    width: calc(70vw / 3);
+}
+.header-col-3{
+    display: flex;
+    flex-direction: column;
+    width: calc(70vw / 3);
+}

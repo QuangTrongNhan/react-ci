@@ -1,0 +1,30 @@
+.col-1{
+    margin: auto;
+    width: 10rem;
+    border: 3px solid red;
+    padding: 100px;
+    overflow: auto;
+    height: 200px;
+}
+.col-2{
+    margin: auto;
+    width: 10rem;
+    border: 3px solid deepskyblue;
+    padding: 100px;
+    overflow: auto;
+    height: 200px;
+}
+.col-3{
+    margin: auto;
+    width: 10rem;
+    border: 3px solid green;
+    padding: 100px;
+    overflow: auto;
+    height: 200px;
+}
+.body-cont{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+ 
