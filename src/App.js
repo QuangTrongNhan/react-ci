@@ -1,10 +1,12 @@
 import './App.css';
-import { MyCard } from './component/cardMemory'
+import { Home } from './component/Home'
+import { Search} from './component/Search'
 
 function App() {
   return (
     <div>
-      <MyCard />
+      <Search />
+      <Home />    
     </div>
   );
 }
